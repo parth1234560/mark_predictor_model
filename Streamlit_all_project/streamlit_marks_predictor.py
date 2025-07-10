@@ -2,7 +2,7 @@ import streamlit as st
 import pandas
 from sklearn.linear_model import LinearRegression
 
-st.header("🚀 Do you want to increase your study hours?")
+st.header("🚀 Do you want to know how much your study hours affects ypur marks?")
 st.title("📘 Then come to our website!")
 
 uploaded_file = st.file_uploader("📂 Upload a CSV file with 'hrs' and 'mark' columns", type=["csv"])
